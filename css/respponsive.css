@@ -1,0 +1,92 @@
+/*=============== LARGE DEVICE RESPONSIVE START HERE ===============*/
+@media (max-width: 992px) {
+  html {
+    font-size: 55%;
+    scroll-padding-top: 7rem;
+  }
+
+  .header {
+    padding: 2rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .home .box {
+    padding: 2rem;
+    justify-content: center;
+    background-position: left !important;
+  }
+
+  .home .box.second {
+    justify-content: center;
+    background-position: left !important;
+  }
+
+  .home .box .content {
+    text-align: center;
+  }
+
+  .home .box .content h3 {
+    font-size: 4.5rem;
+  }
+
+  .home .box .content p {
+    font-size: 1.5rem;
+  }
+
+  .contact--container {
+
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}
+
+/*=============== MEDIUM DEVICE RESPONSIVE START HERE ===============*/
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar.active {
+    right: 0;
+  }
+
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .header .search-form {
+    width: 90%;
+    right: 2rem;
+  }
+
+  .about--container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*=============== SMALL DEVICE RESPONSIVE START HERE ===============*/
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header {
+    padding: 3rem;
+  }
+}
